@@ -1,0 +1,29 @@
+// Place all the styles related to the staticpages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+.key {
+  width: 50px;
+  height: 300px;
+  float: left;
+  border: 1px solid black;
+}
+
+.pressed {
+  background: black;
+}
+
+#content {
+  width: 370px;
+  margin: 50px auto;
+  display: block;
+}
+
+.group:after{
+  content: "";
+  display: block;
+  clear: both;
+}
